@@ -1,0 +1,51 @@
+# ---- 操作系统 ----
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ---- 编辑器 / IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+*.suo
+*.user
+
+# ---- 日志与临时文件 ----
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# ---- 环境与密钥 ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# ---- 依赖与构建产物 ----
+node_modules/
+dist/
+build/
+out/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+target/
+*.class
